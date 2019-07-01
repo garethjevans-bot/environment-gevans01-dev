@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQfAtoR0LC1nTrA6sWpWzg5TANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQzNjA4MDdjZC0wZjQ0LTQ5ODYtYjk4ZC1iNWNiOGE0YjFiMjIw
+    HhcNMTkwNzAxMDc1NjU1WhcNMjQwNjI5MDg1NjU1WjAvMS0wKwYDVQQDEyQzNjA4
+    MDdjZC0wZjQ0LTQ5ODYtYjk4ZC1iNWNiOGE0YjFiMjIwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQC+zoziOHyrkl3Lemjxfl39tCcGFQR5/l54q+lQx+NY
+    yEYR+0ow1toWvsxa66eZtd1p6d7Z/pH1sQCrIxbjo7D3sawl9638bJUnkqM0mpxr
+    ltUpatTthXNQGJAlCa7yzPnk8NZk+vfOYqV9/rWdME219yi1zBEQAPRsWvzlmLUS
+    2EWK2GTEFlMCcCcc+e3KVXWadWbC/LGemSlgzm8SI1IxLVGBpHrMOymIQDsbJIdh
+    6ISUMpCdmSTgEkEi0MnYyNmH1coTu/Djrkterqgmqyxuc6l580nz2CDIfb9fYTh9
+    cX/XUdq0pVgUJlrQKkTPkCtG9RNrqK6S/pDrP0aENpGbAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCA
+    8wZr3mydrC14oVAW5I8hN62DeYuIbCSWODttQ+6D0QcoLLxUbueJpGbSLUL+1rmk
+    tkcFZaLtYLFxY/yeLLmmUKd99GgylkIHGRsN+J8C6HCVmExBoKEI+wwObODVzAEL
+    z8l7/zhugG8hXgtofmskj6FI0GV2M769ZRE/j37BiL2O3+BzR6YRP6WRCfh3PEE6
+    +zdO9p5nNV/UPUgUtlDoxec1WPbLc/PD/Kck5VH6oJm7Us8VKXJYscHkc/fPdfd+
+    7cRVwtR2pvsdzGDL0+sUjHOJiEjM37CvXjeZznNxaRBOkCUc6HEae/1cmzCKa0oy
+    4RTNKMiuVRadvK+lpX0G
+    -----END CERTIFICATE-----
+  clusterName: gevans01
+  jx-install-version: 2.0.230
+  kubeProvider: gke
+  projectID: jenkins-x-workshop
+  region: ""
+  secretsLocation: vault
+  server: https://34.76.138.153
+  systemVaultName: jx-vault-gevans01
+  zone: europe-west1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
